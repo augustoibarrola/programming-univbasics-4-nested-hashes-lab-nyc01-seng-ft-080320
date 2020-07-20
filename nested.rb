@@ -95,7 +95,9 @@ def changing_alan
         :languages => ["C"]
       }
     }
-		programmer_hash[:alan_kay][:known_for] = "GUI"
+		if programmer_hash[:alan_kay][:known_for]["Object Orientation"] then
+			programmer_hash[:alan_kay][:known_for] = "GUI"
+		end
 end
 
 def adding_to_dennis
