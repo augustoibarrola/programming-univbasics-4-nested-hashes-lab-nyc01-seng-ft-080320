@@ -98,6 +98,7 @@ def changing_alan
 		if programmer_hash[:alan_kay][:known_for]["Object Orientation"] then
 			programmer_hash[:alan_kay][:known_for] = "GUI"
 		end
+		programmer_hash
 end
 
 def adding_to_dennis
